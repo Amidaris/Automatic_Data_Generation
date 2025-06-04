@@ -58,7 +58,7 @@ df = pd.DataFrame(data)
 
 print(df)
 
-# Blok: Obliczenia w Pandas
+# Obliczenia w Pandas
 
 # Liczba kobiet i mężczyzn w firmie
 gender_counts = df["płeć"].value_counts()
@@ -102,7 +102,7 @@ avg_salary_by_age = df.groupby("przedział_wiekowy")["wynagrodzenie"].mean()
 
 print(avg_salary_by_age)
 
-"""## Eksport do pliku"""
+# Eksport do pliku
 
 # Eksport do plików
 csv_path = "dane_fake.csv"
@@ -141,7 +141,7 @@ print(df_sql)
 
 conn.close()
 
-"""## Wizualizacja"""
+# Wizualizacja
 
 # Tworzenie wykresu - średnie wynagrodzenie według wieku
 avg_salary_by_age.plot(kind="bar", figsize=(10, 6), color="purple")
