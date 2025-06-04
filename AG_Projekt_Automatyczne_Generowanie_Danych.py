@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""## Automatyczne generowanie danych """
+# Projekt: Automatyczne generowanie danych 
 !pip install faker pandas openpyxl matplotlib db-sqlite3
 
 # Importy
