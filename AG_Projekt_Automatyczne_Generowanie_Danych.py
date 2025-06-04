@@ -112,7 +112,7 @@ db_path = "dane_fake.db"
 df.to_csv(csv_path, index=False)
 df.to_excel(xlsx_path, index=False)
 
-"""## SQL"""
+# Blok: Bazy Danych i SQL
 
 conn = sqlite3.connect(db_path)
 df.to_sql("pracownicy", conn, if_exists="replace", index=False)
