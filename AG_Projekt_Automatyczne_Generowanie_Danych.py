@@ -102,8 +102,6 @@ avg_salary_by_age = df.groupby("przedział_wiekowy")["wynagrodzenie"].mean()
 
 print(avg_salary_by_age)
 
-# Eksport do pliku
-
 # Eksport do plików
 csv_path = "dane_fake.csv"
 xlsx_path = "dane_fake.xlsx"
@@ -112,7 +110,7 @@ db_path = "dane_fake.db"
 df.to_csv(csv_path, index=False)
 df.to_excel(xlsx_path, index=False)
 
-# Blok: Bazy Danych i SQL
+# Bazy Danych i SQL
 
 conn = sqlite3.connect(db_path)
 df.to_sql("pracownicy", conn, if_exists="replace", index=False)
