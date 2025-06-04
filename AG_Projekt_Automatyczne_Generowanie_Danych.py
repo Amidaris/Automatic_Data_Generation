@@ -58,7 +58,7 @@ df = pd.DataFrame(data)
 
 print(df)
 
-"""## Obliczenia w Pandas"""
+# Blok: Obliczenia w Pandas
 
 # Liczba kobiet i mężczyzn w firmie
 gender_counts = df["płeć"].value_counts()
