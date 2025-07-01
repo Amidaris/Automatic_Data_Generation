@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 # Projekt: Automatyczne generowanie danych 
-!pip install faker pandas openpyxl matplotlib db-sqlite3
+# ! - uruchamianie z poziomu GoogleColaboratory
+# !pip install faker pandas openpyxl matplotlib db-sqlite3
 
 # Importy
 import pandas as pd
