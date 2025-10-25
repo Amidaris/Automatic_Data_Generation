@@ -1,0 +1,13 @@
+# Ignoruj środowisko wirtualne
+venv/
+
+# Ignoruj cache Pythona
+__pycache__/
+
+# Ignoruj pliki tymczasowe
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite database
+*.db
